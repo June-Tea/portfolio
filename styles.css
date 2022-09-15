@@ -30,7 +30,7 @@ body {
 }
 #navbar div{
   height: 100%;
-  width: 100px;
+  width:100px;
   padding: 3 5px 0;
   transition: .3s;
   display: flex;
@@ -58,7 +58,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-size: 48px;
+  font-size: 34px;
   background: repeating-linear-gradient(
     45deg,
     #2e2e2e,
@@ -70,14 +70,14 @@ body {
   color: var(--navbar);
 }
 /* PROJECTS */
-#projects {
+.projects {
   margin-top: 3em;
   display: flex;
   justify-content: center;
   padding-bottom: 10em;
 }
 .project-header {
-  margin-top: 2em;
+  padding-top: 9vh;
   display: flex;
   flex-direction: column;
 }
@@ -119,7 +119,7 @@ body {
   opacity: 100;
 }
 @media(max-width: 800px){
-  #projects {
+  .projects {
     justify-content: center;
     flex-direction: column;
   }
@@ -130,7 +130,7 @@ body {
   }
 }
 @media(max-width: 1200px) and (min-width: 800px){
-  #projects {
+  .projects {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -142,7 +142,7 @@ body {
   }
 }
 @media(min-width: 1200px){
-  #projects {
+  .projects {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
