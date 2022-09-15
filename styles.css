@@ -29,7 +29,7 @@ body {
   font-size: 1.25rem;
 }
 #navbar div{
-  height: 7.75vh;
+  height: 98%;
   width: 100px;
   padding: 3 5px 0;
   transition: .3s;
