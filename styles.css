@@ -30,22 +30,26 @@ body {
 }
 #navbar div{
   height: 100%;
-  width:100px;
+  width: 100px;
   padding: 3 5px 0;
   transition: .3s;
   display: flex;
   justify-content: center;
 }
-#navbar div a {
+#navbar div:last-of-type {
+  margin-right: 10px;
+}
+#navbar>div>a {
   height: 100%;
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  text-align: center;
 }
 #navbar div a p {
   width: 100%;
   text-align: center;
+  margin: au;
 }
 #navbar div:hover {
   background-color: var(--background);
@@ -58,7 +62,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-size: 48px;
+  font-size: 40px;
   background: repeating-linear-gradient(
     45deg,
     #2e2e2e,
